@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "google-boost",
+    "description": "Easy access to Reddit and ChatGPT-3.",
+    "version": "1.0.0",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Open the popup"
+    },
+    "icons": {
+        "69": "icon1.png",
+        "128": "icons2.png"
+    },
+    "permissions": [
+        "scripting",
+        "activeTab",
+        "storage", 
+        "tabs"
+    ],
+    "host_permissions": [
+        "https://*/"
+    ]
+}
